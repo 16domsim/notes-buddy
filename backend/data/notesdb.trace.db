@@ -1,0 +1,6 @@
+2024-09-13 17:25:03.245687+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "CONTENT CHARACTER VARYING(255)": "'loolloolloolloolloolloolloolloolloolloolloolloolloolloolloolloolloolloolloolloo... (2810808)"; SQL statement:
+update note set content=?,title=? where id=? [22001-224]
+2024-09-13 17:25:09.314977+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "CONTENT CHARACTER VARYING(255)": "'loolloolloolloolloolloolloolloolloolloolloolloolloolloolloolloolloolloolloolloo... (2810808)"; SQL statement:
+update note set content=?,title=? where id=? [22001-224]
